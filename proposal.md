@@ -1,4 +1,4 @@
-= Topic Modeling as a Tool for Resource Discovery
+# Topic Modeling as a Tool for Resource Discovery
 
 Resource Discovery has changed dramatically over the last two decades as a
 result of next-gen catalog technologies, particularly through an increased
