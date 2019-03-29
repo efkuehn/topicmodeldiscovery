@@ -13,7 +13,7 @@ builds on our previous exploratory study, "Indexing the Theologico-
 Political", and demonstrates not only the organizational capabilities of topic
 modeling, but also the predictive capabailities that are integral to library
 resource discovery. We will build a topic model on a specific corpus of recent works in the
-emerging subfield of the political theology of human migration, choose a couple of these topics that we find 
+emerging subfield of the political theology of human migration, identify a subset of these topics that we find 
 relavant for further research, and use these on a much larger corpus to find relavant sections
 in a corpus gathered from Hathi Trust. This will demonstrate both the corpus exploration of 
 topic modeling, as well as applying this model to an unseen corpus for discovery. 
