@@ -1,7 +1,8 @@
-.DS_Store/*
+.DS_Store
 ./pdfs/*
 pdfs/
 data/test/*
+data/.DS_Store
 data/testfiles/*
 notebooks/.ipynb_checkpoints/*
 
