@@ -5,4 +5,6 @@ data/test/*
 data/.DS_Store
 data/testfiles/*
 notebooks/.ipynb_checkpoints/*
+notebooks/__pycache__/*
+
 
