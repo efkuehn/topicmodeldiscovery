@@ -194,7 +194,7 @@ def main():
                 print("%r generated an exception: %s" % (ht_id, exc))
             else:
                 output_data[ht_id] = data
-    with open("analyzed_corpus1.json", "w") as fp:
+    with open("./output/analyzed_corpus.json", "w") as fp:
         fp.write(str(output_data))
 
 
