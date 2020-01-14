@@ -153,10 +153,19 @@ def corpus_parser(corpus_list, corpus_dict, ldamodel):
 
 
 def analyzed_row_creator(volume, corpus_dict, ldamodel, lemmatizer):
+    """
+    At this point other details from the volume could be added to the results. 
+    volume.title # provides the title 
+    [s.value() for s in volume.metadata.subjects()] # would provide a list of
+    all of the subject headings associated 
+    volume.year # the year of publication
+    A fool Marc Record is available through the feature reader
+    """
     corpus_list = volume_parser(volume, lemmatizer)
     best_match, most_common_topic, top_topic = corpus_parser(
         corpus_list, corpus_dict, ldamodel
     )
+
     return Book(
         volume.id, Topic(*top_topic), BestMatch(*best_match), Topic(*most_common_topic)
     )
@@ -178,7 +187,7 @@ def main():
             vol, corpus_dict, lda_model, lemmatizer
         )
     """
-    with concurrent.futures.ProcessPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=7) as executor:
         future_to_id = {
             executor.submit(
                 analyzed_row_creator, vol, corpus_dict, lda_model, lemmatizer
