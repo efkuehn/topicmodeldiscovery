@@ -7,11 +7,11 @@ Zotero](https://www.zotero.org/groups/2198779/theologicopolitical/items)
 
 ## The Order of the notebooks 
 
-1. [Creating A Topic Model](notebooks/create_topic_models.ipynb) 
-2. [Visualising the Topic Model](notebooks/visualising_topic_model.ipynb)
-3. [Exploring Topic Distribution](notebooks/exploring_topic_distribution.ipynb)
-4. [Exploring Hathi Trust](notebooks/exploring_hathi_trust.ipynb)
-5. [Analysing the Output](notebooks/graphs_and_plots_for_data.ipynb) 
+1. [Creating A Topic Model](docs/creating_topic_models.md) 
+2. [Visualising the Topic Model](docs/visualising_topic_model.md)
+3. [Exploring Topic Distribution](docs/exploring_topic_distribution.md)
+4. [Exploring Hathi Trust](docs/exploring_hathi_trust.md)
+5. [Analysing the Output](docs/analysing_the_output.md) 
 
 
 ## Running the Process 
