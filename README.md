@@ -54,6 +54,9 @@ conda install -c htrc htrc-feature-reader
 conda install gensim
 ```
 
+Anaconda has some of the other libraries used like Pandas, Sci-kit learn, and
+numpy. 
+
 Also, two nltk datasets need to be downloaded:
 ```
 nltk.download('wordnet')
