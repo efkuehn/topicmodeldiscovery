@@ -20,6 +20,9 @@ The Jupyter Notebooks describe the different steps and stages that we went
 through and developing the work. But most of the heavy compute was actually
 run through some scripts that were called directly. 
 
+To recreate our work flow, either clone this repo, or download and unpack the
+zip file. 
+
 ## The Data 
 
 The larger corpus that we wanted to explore is the [Political Theology
@@ -41,9 +44,19 @@ the script to run better.
 
 The version of the model that we ran could use a bit of tweaking and
 correcting based on a better defined corpus, and changes to the paremters. But
-as a proof of concept, [this is the model we ran](notebooks/models/PrelimTopicModel2).
+as a proof of concept, [the  model we ran is in the `notebooks/models`
+directory](notebooks/models/). The model can be accessed as it is in many of
+the linked notebooks: 
+```
+lda_model = LdaModel.load('./models/PrelimTOpicModel2') 
+corpus_dict = Dictionary.load_from_text('./models/corpus_dictionary_2')
+with open('./models/corpus.json', 'r') as fp:
+    corpus = json.load(fp)
+```
+
 
 ## The Script 
+
 
 We used [Anaconda](https://www.anaconda.com/) to install all of the
 dependencies this script needed: 
