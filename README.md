@@ -1,8 +1,7 @@
 # topicmodeldiscovery
 This is a space for notes on "Topic Modeling as a Tool for Resource Discovery", for the ATLA 75th anniversary volume.
 
-[The Bibliography we used to creat the topic model is on
-Zotero](https://www.zotero.org/groups/2198779/theologicopolitical/items)
+[The Bibliography we used to create the topic model is linked here.](https://docs.google.com/document/d/1sXHkN6WsW_SwG5xLSRPLS-DPqbwbQCHcB8ErrIbxu0M/edit?usp=sharing)
 
 
 ## The Order of the notebooks 
