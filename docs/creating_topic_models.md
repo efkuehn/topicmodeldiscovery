@@ -181,3 +181,8 @@ import json
 # with open('./models/corpus.json', 'w') as fp:
 #    json.dump(corpus, fp)
 ```
+
+### Navigation 
+
+- [Home](../README.md)
+- [Next](visualising_topic_model.md)
