@@ -1349,3 +1349,8 @@ These topics were analysed in the context of the pdfs that generated them. These
 
 These are the only six topics we looked for in the HathiTrust corpus that we had identified. 
 
+### Navigation 
+
+- [Back](visualising_topic_model.md)
+- [Home](../README.md) 
+- [Next](exploring_hathi_trust.md)
