@@ -145,4 +145,8 @@ def format_topics_sent(ldamodel, corpus, texts):
 ```
 
 
+### Navigation 
 
+- [Back](creating_topic_models.md)
+- [Home](../README.md)
+- [Next](exploring_topic_distribution.md)
