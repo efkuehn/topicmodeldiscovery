@@ -1,7 +1,13 @@
 
 # Charts and Graphs for Data Analysis
 
-The script `pool_process.py` runs on 7 different CPU cores, to spits out the text into `./output/analalyzed_corpus.json`. This script creates text file that needs a bit of massaging to create a python readable dictionary. Part of the goal of this script is to make a pandas dataframe. 
+The script `pool_process.py` runs on 7 different CPU cores, to spits out the
+text into `./output/analalyzed_corpus.json`. One of the big problems with
+running NLTK in multiprocessing is that the WordNetLemmetizer has to be
+initialized first, before the threading. [Read more about it in this
+stackoverflow answer](https://stackoverflow.com/a/27437149). This script creates text file
+that needs a bit of massaging to create a python readable dictionary. Part of
+the goal of this script is to make a pandas dataframe. 
 
 
 ```python
