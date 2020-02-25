@@ -42,7 +42,7 @@ the script to run better.
 ## The Model 
 
 The version of the model that we ran could use a bit of tweaking and
-correcting based on a better defined corpus, and changes to the paremters. But
+correcting based on a better defined corpus, and changes to the parameters. But
 as a proof of concept, [the  model we ran is in the `notebooks/models`
 directory](notebooks/models/). The model can be accessed as it is in many of
 the linked notebooks: 

@@ -21,7 +21,7 @@ pdfs = glob('../pdfs/*.pdf')
 
 # Preparing Texts 
 
-Because these texts are pdf scans a lot of clean up will need to go into the OCR. It would be better to add spell check and other things, but we will just be pulling out the stop words, the obvious misspellings, and misdivided words. We used the `WordNetLemmatize` for lemmatizing the words, and SciKit Learn's stopwords collection for english. 
+Because these texts are pdf scans a lot of clean up will need to go into the OCR. It would be better to add spell check and other things, but we will just be pulling out the stop words, the obvious misspellings, and misdivided words. We used the `WordNetLemmatize` for lemmatizing the words, and SciKit Learn's stopwords collection for English. 
 
 The first time this is ran, you will need to download both `wordnet` and `punkt` for the NLTK libraries to work. 
 

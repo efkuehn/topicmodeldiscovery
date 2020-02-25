@@ -82,7 +82,7 @@ for vol in volumes:
         
 ```
 
-Here is what one of the pages looks like after it has been cleaned. Notice these are just collection of the words. Many of them are errors because of OCR problems. This is one advantage to LDA topic modeling, it can be forgiving of errors as long as their is enough text. 
+Here is what one of the pages looks like after it has been cleaned. Notice these are just collection of the words. Many of them are errors because of OCR problems. This is one advantage to LDA topic modeling, it can be forgiving of errors as long as there is enough text. 
 
 
 ```python
@@ -562,14 +562,14 @@ vol_list[375]
 
 
 
-The matches below .04 are not worth concedering. The match is to low to be relevant, so we can filter these matches out with the following list comprehension.
+The matches below .04 are not worth concedering. The match is too low to be relevant, so we can filter these matches out with the following list comprehension.
 
 
 ```python
 short_sort = [x for x in pot_match if x[-1] > .04]
 ```
 
-With the shortened list, we can easily create a pandas Dataframe and do various operiations to find out more about the book as a whole. In the first example, we found the average rating for the topics in the book. This calculates the average rating everytime a given topic is dominant on a page. 
+With the shortened list, we can easily create a pandas dataframe and do various operiations to find out more about the book as a whole. In the first example, we found the average rating for the topics in the book. This calculates the average rating everytime a given topic is dominant on a page. 
 
 
 ```python
